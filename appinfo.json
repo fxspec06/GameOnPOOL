@@ -1,0 +1,12 @@
+{
+	"id": "com.fxspec.gameon",
+	"version": "0.6.2",
+	"vendor": "fxspec06",
+	"type": "web",
+	"main": "index.htm",
+	"title": "Game On!",
+	"icon": "icon256.png",
+	"splashIcon": "bbsplash.png",
+	"uiRevision": "2",
+	"noWindow":false
+}

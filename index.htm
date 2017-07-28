@@ -1,0 +1,32 @@
+<!--
+- Copyright 2012 fxspec06 (Bryan Leasot)
+- Not for distribution
+-
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game On!</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="enyo/enyo-2.0b4/enyo.css" />
+        <script type="text/javascript" src="enyo/enyo-2.0b4/enyo.js"></script>
+        <script type="text/javascript" src="enyo/lib/layout/package.js"></script>
+        <script type="text/javascript" src="enyo/lib/onyx/package.js"></script>
+        <script type="text/javascript" src="enyo/lib/layout/fittable/package.js"></script>
+        <script type="text/javascript" src="package.js"></script>
+    </head>
+    <body onload="domcontentloaded()" class="onyx" style="background-color: #333333;top:-1px;height:100.2%;">
+        <script type="text/javascript">
+			var domcontentloaded = function() {
+				if(window.PalmSystem) {
+					window.PalmSystem.stageReady();
+				}
+
+				//({fit: true, classes: "enyo-unselectable"}).write();
+				_gameOn = new gameOn().renderInto(document.body);
+			}
+
+        </script>
+    </body>
+</html>

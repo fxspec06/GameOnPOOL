@@ -1,2 +1,4 @@
-# GameOnPOOL
-Pool tournament app written in EnyoJS
+GameOn
+======
+
+tournament app written in enyojs
